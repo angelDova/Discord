@@ -39,7 +39,7 @@ export const ServerHeader = ({ server, role }: ServerHeaderProps) => {
       <DropdownMenuContent className="w-56 text-xs font-medium text-black dark:text-neutral-400 space-y-[2px]">
         {isModerator && (
           <DropdownMenuItem className="text-indigo-600 dark:text-indigo-400 px-3 py-2 text-sm cursor-pointer">
-            Invite People
+            invite people
             <UserPlus className="h-4 w-4 ml-auto" />
           </DropdownMenuItem>
         )}
@@ -78,3 +78,5 @@ export const ServerHeader = ({ server, role }: ServerHeaderProps) => {
     </DropdownMenu>
   );
 };
+
+//3:32:26
