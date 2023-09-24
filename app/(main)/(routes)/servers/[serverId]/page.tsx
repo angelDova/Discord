@@ -3,5 +3,3 @@ const ServerIdPage = () => {
 };
 
 export default ServerIdPage;
-
-// 2:21:45
