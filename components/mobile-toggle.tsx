@@ -23,5 +23,3 @@ export const MobileToggle = ({ serverId }: { serverId: string }) => {
     </Sheet>
   );
 };
-
-//8:07:23
